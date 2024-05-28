@@ -27,6 +27,7 @@ class LoginModel() : LoginContract.Model {
 
             Log.d("aass", "This is from mega")
             Log.d("aass", "Just for testing revert")
+            Log.d("aass", "master change")
 
             for(user in it){
 
