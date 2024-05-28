@@ -23,6 +23,7 @@ class LoginModel() : LoginContract.Model {
             it.add(User("mike@def.com", "mike789", "password789"))
             it.add(User("paul@xyz.com", "paul01", "paulxyz01"))
             it.add(User("jane@xyz.com", "jane456", "pass456"))
+            Log.d("aass", "This is from mega")
 
             for(user in it){
 
